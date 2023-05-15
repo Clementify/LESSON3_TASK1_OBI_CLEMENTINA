@@ -50,3 +50,96 @@ table {
 
 
 /* Write your css below here */
+
+
+h1{
+	font-size: 50px;
+	color: #c30d25;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+    width:60%;
+}
+
+    nav{
+        width:300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+         }
+
+         .about{
+            color: #0bbc63;
+         }
+
+         .home{
+            color: #200bbc;
+         }
+
+         .contact{
+            color: #000;
+         }
+
+ h1,h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(12 60 101);
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    
+}
+
+
+.logo-img{
+    height: 70px;
+    width: 200px;
+}
+
+
+a:hover{
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+.main {
+    width: 800px;
+    background-color: #f7f7f7;
+    margin-left: 20%;
+}
+
+.side {
+    background-color: #341c9e;
+    top: 0;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    background-color: #16a65c;
+    text-align: center;
+
+}
+
+footer span{
+    margin: 2px;
+}
