@@ -71,7 +71,7 @@ h1{
          }
 
          .about{
-            color: #0bbc63;
+            color: #175bc9;
          }
 
          .home{
@@ -139,6 +139,7 @@ header{
 .logo-img{
     height: 70px;
     width: 200px;
+    align-items: end;
 }
 
 
@@ -154,13 +155,6 @@ a:hover{
     font-size: larger;
 }
 
-.side {
-    background-color: #341c9e;
-    top: 0;
-    width: 300px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-}
 
 footer {
     width: 100vw;
