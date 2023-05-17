@@ -54,17 +54,18 @@ table {
 
 h1{
 	font-size: 50px;
-	color: #c30d25;
+	color: #261c1e;
 	font-weight: 700;
 	font-style: italic;
 	text-align: center;
     width:60%;
+    text-decoration: blueviolet;
 }
 
     nav{
         width:300px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
          }
@@ -78,13 +79,41 @@ h1{
          }
 
          .contact{
-            color: #000;
+            color: #a934a9;
          }
 
- h1,h2, h3, h4, h5, h6 {
-    font-family: "Times New Roman", Times, serif;
-    color: rgb(12 60 101);
+ 
+h2 {
+padding: 40px;
+padding-left: 2%;
+font: 2em sans-serif;
+font-family: 'Courier New', Courier, monospace;
+color: #3f0a9b;
 }
+
+h3{
+    padding: 40px;
+    padding-left: 2%;
+    font: 2em sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3f0a9b;
+    }
+
+    h4{
+        padding: 40px;
+        padding-left: 2%;
+        font: 2em sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: aquamarine;
+        }
+
+    h5{
+            padding: 40px;
+            padding-left: 2%;
+            font: 2em sans-serif;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #16a65c;
+            }
 
 
 p {
@@ -92,6 +121,8 @@ p {
     line-height: 1.5;
     margin-left: 20px;
     margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 
@@ -117,9 +148,10 @@ a:hover{
 }
 
 .main {
-    width: 800px;
+    padding: 300px;
     background-color: #f7f7f7;
     margin-left: 20%;
+    font-size: larger;
 }
 
 .side {
